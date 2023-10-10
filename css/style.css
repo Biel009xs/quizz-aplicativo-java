@@ -84,3 +84,16 @@ body{
   margin: 5px 0;
   font-size: 17px:
 }
+
+.info_box .info-list .info span{
+  font-weight: 600:
+  color: #007bff;
+}
+.info_box .buttons{
+  heght: 60px;
+  display: flex;
+  align_items: center;
+  justify-content: flex-end;
+  padding: 0 30px;
+  border-top: 1px solid lightgrey;
+}
