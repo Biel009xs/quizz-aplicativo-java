@@ -252,3 +252,28 @@ section .option_list .option .icon{
   border-color: #23903c;
   background: #d4edda;
 }
+
+.option_list .option .icon.cross{
+  color: #a42834
+  background: #f8d7da;
+  border-color: #a42834;
+}
+
+footer{
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  jutify-content: space-between;
+  border-top: 1px solid lightgrey;
+}
+
+footer .total_que span{
+  display: flex;
+  user-select: none;
+}
+
+footer .total_que span p{
+  font-weight: 500;
+  padding: 0 5px;
+}
